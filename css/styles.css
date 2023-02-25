@@ -19,8 +19,13 @@ body {
     width: 314px;
     height: auto;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    padding-top: 125px;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    overflow: auto;
+    flex-direction: column;
     
 
 }
