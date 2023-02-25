@@ -1,10 +1,17 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--lightgray);
     font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: center;
@@ -12,8 +19,6 @@ body {
 
 
 /* QR Card */
-
-
 
 .container {
     width: 314px;
@@ -33,7 +38,7 @@ body {
 .qr-card {
     text-align: center;
     padding: 15px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
     border-radius: 15px;
 
 }
@@ -52,12 +57,13 @@ body {
     font-size: 1.4rem;
     text-align: center;
     padding: 14px;
+    color: var(--darkblue);
 }
 
 .text2 {
     margin-left: 25px;
     margin-right: 25px;
-    color: hsl(220, 15%, 55%);
+    color: var(--grayishblue);
     font-size: 15px;
     font-style: center;
     text-align: center;
@@ -75,7 +81,6 @@ footer {
 .footer {
     position: fixed;
     display: block;
-    padding-top: 50px;
     left: 0;
     bottom: 10px;
     width: 100%;

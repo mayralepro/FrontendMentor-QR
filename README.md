@@ -25,4 +25,5 @@ The challenge was to build out this QR code component and get it looking as clos
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Variables
 - Flexbox
